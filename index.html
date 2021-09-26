@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsividade.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="menu">
+      <h1><img class="menu__logo" src="./assets/images/logo.svg" alt="Logotipo Fylo"></h1>
+      <ul class="menu__lista">
+        <li><a class="menu__links" href="#">Features</a></li>
+        <li><a class="menu__links" href="#">Team</a></li>
+        <li><a class="menu__links" href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="primeiraSecao">
+      <img class="primeiraSecao__img" src="./assets/images/illustration-intro.png" alt="">
+      <h2 class="primeiraSecao__titulo">All your files in one secure location, accessible anywhere.</h2>
+      <h3 class="primeiraSecao__subTitulo">Fylo stores all your most important files in one secure location. Access them wherever 
+        you need, share and collaborate with friends family, and co-workers.</h3>    
+        <button class="primeiraSecao__botao">Get Started</button>
+    </section>
+    <section class="segundaSecao">
+      <div class="segundaSecao__container">
+        <img class="segundaSecao__container--img" src="./assets/images/icon-access-anywhere.svg" alt="">
+        <h3 class="segundaSecao__container--titulo"> Access your files, anywhere</h3>
+        <p class="segundaSecao__container--p">  The ability to use a smartphone, tablet, or computer to access your account means your 
+          files follow you everywhere.</p>
+      </div>
+      <div class="segundaSecao__container">
+        <img class="segundaSecao__container--img" src="./assets/images/icon-security.svg" alt="">
+        <h3 class="segundaSecao__container--titulo">Security you can trust</h3>
+        <p class="segundaSecao__container--p">
+          2-factor authentication and user-controlled encryption are just a couple of the security 
+          features we allow to help secure your files.</p>
+      </div>
+      <div class="segundaSecao__container">
+        <img class="segundaSecao__container--img" src="./assets/images/icon-collaboration.svg" alt="">
+        <h3 class="segundaSecao__container--titulo">  Real-time collaboration
+        </h3>
+        <p class="segundaSecao__container--p">  Securely share files and folders with friends, family and colleagues for live collaboration. 
+          No email attachments required.</p>
+      </div>
+      <div class="segundaSecao__container">
+        <img class="segundaSecao__container--img" src="./assets/images/icon-any-file.svg" alt="">
+        <h3 class="segundaSecao__container--titulo">  Store any type of file
+        </h3>
+        <p class="segundaSecao__container--p">
+          Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+          file types to be securely stored and shared.</p>
+      </div>
+
+    </section>
+    <section class="terceiraSecao">
+      <img class="terceiraSecao__img" src="./assets/images/illustration-stay-productive.png" alt="">
+      <div class="terceiraSecao__textos">
+        <h3 class="terceiraSecao__textos--titulo">  Stay productive, wherever you are</h3>
+        <p class="terceiraSecao__textos--p">  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+          storage needs.</p>
+          <p class="terceiraSecao__textos--p">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+            attachments required.</p>
+        <a href="#" class="terceiraSecao__textos--link">See how Fylo works <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </section>
+    <section class="quartaSecao">
+      <div class="quartaSecao__card">
+        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <div class="card__user">
+          <img src="./assets/images/profile-1.jpg" alt="" class="card__user--img">
+          <div class="card__user--info">
+            <span class="card__user--nome">Satish Patel</span>
+            <span>Founder & CEO, Huddle</span>
+          </div>
+        </div>
+      </div>
+      <div class="quartaSecao__card">
+        <p>  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <div class="card__user">
+          <img src="./assets/images/profile-2.jpg" alt="" class="card__user--img">
+          <div class="card__user--info">
+            <span class="card__user--nome">Bruce McKenzie</span>
+            <span>Founder & CEO, Huddle</span>
+          </div>
+        </div>
+      </div>
+      <div class="quartaSecao__card">
+        <p>  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <div class="card__user">
+          <img class="card__user--img" src="./assets/images/profile-3.jpg" alt="">
+          <div class="card__user--info">
+            <span class="card__user--nome">Iva Boyd</span>
+            <span>Founder & CEO, Huddle</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quintaSecao">
+      <div class="quintaSecao__container">
+        <h3 class="quintaSecao__titulo">Get early access today</h3>
+        <p class="quintaSecao__p">  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+          questions, our support team would be happy to help you.</p>
+        <form class="quintaSecao__form" action="" data-form>
+          <input class="quintaSecao__form--input" type="email" name="" id="" placeholder="email@example.com" data-input-email>
+          <button class="quintaSecao__form--botao" data-botao>Get Started For Free</button>
+        </form>
+      </div>
+
+    </section>
+    <section class="sextaSecao">
+      <img class="sextaSecao__logo" src="./assets/images/logo.svg" alt="">
+      <div class="sextaSecao__container">
+        <div class="sextaSecao__sobre">
+          <span class="sextaSecao_sobre--span">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua</span>
+        </div>
+        <div class="sextaSecao__contato">
+          <span class="sextaSecao__contato--tel">+1-543-123-4567</span>
+          <span class="sextaSecao__contato--email">example@fylo.com</span>
+        </div>
+        <div class="sextaSecao__gradeLinks">
+          <ul class="sextaSecao__listaLinks">
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">About Us</a></li>
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Jobs</a></li>
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Press</a></li>
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Blog</a></li>
+          </ul>
+          <ul class="sextaSecao__listaLinks">
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Contact Us</a></li>
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Terms</a></li>
+            <li class="sextaSecao__li"><a class="sextaSecao__links" href="#">Privacy</a></li>
+          </ul>
+          <ul class="sextaSecao__listaLinks--sociais">
+            <li class="sextaSecao__li "><a class="sextaSecao__links--sociais" href="#"><i class="fab fa-facebook-f sextaSecao__iconesSociais"></i></a></li>
+            <li class="sextaSecao__li "><a class="sextaSecao__links--sociais" href="#"><i class="fab fa-twitter  sextaSecao__iconesSociais"></i></a></li>
+            <li class="sextaSecao__li "><a class="sextaSecao__links--sociais" href="#"><i class="fab fa-instagram sextaSecao__iconesSociais"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+  </main>   
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ThalyaSteffany-tech">Thalya Stéffany</a>.
+    </p>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
