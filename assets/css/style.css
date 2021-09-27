@@ -176,6 +176,9 @@ body {
 .card__user--nome {
     font-weight: 700;
 }
+.grupoQuinta-e-Sexta-Secao {
+    position: relative;
+}
 .quintaSecao {
     display: flex;
     justify-content: center;
@@ -188,16 +191,13 @@ body {
     text-align: center;
     color: #fff;
     position: absolute;
-    top: 152rem;
     box-shadow: 5px 5px 10px hsla(220, 26%, 7%, 0.459);
 }
 .quintaSecao__titulo {
     font-size: 2rem;
     font-weight: 700;
 }
-.quintaSecao__form {
-    position: relative;
-}
+
 .quintaSecao__form--input, .quintaSecao__form--botao{
     border-radius:100px;
     width: 400px;
