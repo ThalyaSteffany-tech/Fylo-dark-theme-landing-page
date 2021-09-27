@@ -66,6 +66,7 @@
         background-size: 38px 25px;
         padding: 3.3rem;
         margin-bottom: 8rem;
+        margin-left: 0;
     }
     .quartaSecao__card {
         margin-bottom: 2rem;
@@ -91,8 +92,13 @@
         margin-right: 0;
     }
 
+
+  
+}
+@media (max-width: 1199px) {
     .sextaSecao__container {
         flex-direction: column;
+        
     }
     .sextaSecao__sobre, .sextaSecao__contato  {
         width: 100%;
