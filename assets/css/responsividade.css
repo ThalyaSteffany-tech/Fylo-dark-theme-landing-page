@@ -69,6 +69,9 @@
     }
     .quartaSecao__card {
         margin-bottom: 2rem;
+        max-width: 100%;
+        justify-content: center;
+        margin-left: 5%;
     }
     .quintaSecao {
         margin-bottom: 8rem;
@@ -76,10 +79,18 @@
     .quintaSecao__container {
         width: 80%;
         padding-bottom: 2rem;
+        overflow: hidden;
     }
-    .quintaSecao__form--botao  {
-        width: 400px;
+    .quintaSecao__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    .quintaSecao__form--input, .quintaSecao__form--botao{
+        width: 80%;
+        margin-right: 0;
+    }
+
     .sextaSecao__container {
         flex-direction: column;
     }
