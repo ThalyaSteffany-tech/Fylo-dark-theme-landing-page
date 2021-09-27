@@ -150,15 +150,16 @@ body {
     padding: 4rem;
     margin-left: 4rem;
     margin-top: 6rem;
+    flex-wrap: wrap;
 }
 .quartaSecao__card {
     background-color: hsl(219, 30%, 18%);
-    width: 250px;
+    width: 300px;
     padding: 40px;
     font-family: 'Raleway', sans-serif;
     line-height:20px;
     box-shadow: 12px 15px  5px hsla(220, 26%, 7%, 0.459);
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
 }
 .card__user{
     display: flex;
@@ -176,7 +177,8 @@ body {
 .card__user--nome {
     font-weight: 700;
 }
-.grupoQuinta-e-Sexta-Secao {
+.paiQuintaeSexta {
+    width: 100%;
     position: relative;
 }
 .quintaSecao {
@@ -187,7 +189,7 @@ body {
     background-color:  hsl(217, 28%, 15%);
     border-radius: 10px;
     width: 50%;
-    padding: 5%;
+    padding: 3%;
     text-align: center;
     color: #fff;
     position: absolute;
@@ -197,10 +199,9 @@ body {
     font-size: 2rem;
     font-weight: 700;
 }
-
 .quintaSecao__form--input, .quintaSecao__form--botao{
     border-radius:100px;
-    width: 400px;
+    width: 60%;
     height: 45px;
     text-indent: 20px;
     border:none;
@@ -211,14 +212,13 @@ body {
     color: #fff;
     cursor: pointer;
     font-weight: 700;
-    width: 200px;
     margin-top: 30px;
     text-indent: 0;
 }
 .sextaSecao {
-    margin-top: 4rem;
+    margin-top: 14rem;
     background-color: hsl(216, 53%, 9%);
-    padding: 160px;
+    padding: 150px;
 }
 .sextaSecao__container {
     display: flex;
