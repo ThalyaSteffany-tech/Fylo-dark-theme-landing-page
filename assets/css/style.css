@@ -218,7 +218,7 @@ body {
 .sextaSecao {
     margin-top: 14rem;
     background-color: hsl(216, 53%, 9%);
-    padding: 150px;
+    padding: 130px 0 30px 30px;
 }
 .sextaSecao__container {
     display: flex;
@@ -234,6 +234,7 @@ body {
 .sextaSecao__logo {
     width: 120px;
     object-fit: scale-down;
+    margin-top: 90px;
 }
 .sextaSecao_sobre--span {
     color: #fff;
@@ -317,10 +318,8 @@ body {
 }
 
 .mensagemErro {
-    color: red;
-    margin-top: 10px;
-    position: absolute;
-    left: 50px;
+    color: lightcoral;
+    margin-top: 20px;
     font-weight: 700;
     font-size: .7rem;
 }
