@@ -1,4 +1,20 @@
-@media (min-width: 374.99px) and (max-width:765.99px){
+@media (max-width: 375.99px) {
+    .menu {
+        justify-content: flex-start
+    }
+    .menu__logo {
+        margin-left: 2rem;
+    }
+    .menu__lista {
+        width: 40%;
+        margin-right: 0;
+    }
+    .quartaSecao__card {
+        margin-left: -41%;
+        width: 100%;
+    }
+}
+@media (min-width: 376.99px) and (max-width:765.99px){
     .menu__logo {
         width: 80px;
     }
@@ -72,7 +88,7 @@
         margin-bottom: 2rem;
         max-width: 100%;
         justify-content: center;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .quintaSecao {
         margin-bottom: 8rem;
@@ -127,7 +143,7 @@
         padding-right: 8px;
     }
     .sextaSecao__listaLinks--sociais {
-        margin-top: 50px;
-        margin-left: 50px;
+        display: flex;
+        justify-content: center;
     }
 }
