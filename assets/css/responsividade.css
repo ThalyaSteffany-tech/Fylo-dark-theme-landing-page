@@ -19,8 +19,7 @@
         width: 80px;
     }
     .menu__lista {
-        margin-right: 70px;
-        width: 90%;
+       width: 90%;
     }
     .menu__links {
         margin-left: 10px;
@@ -78,6 +77,8 @@
         height: 0;
     }
     .quartaSecao {
+        max-width: 75%;
+        box-sizing: border-box;
         flex-direction: column;
         background-size: 38px 25px;
         padding: 3.3rem;
