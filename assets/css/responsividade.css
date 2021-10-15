@@ -20,6 +20,9 @@
     }
     .menu__lista {
         width: 90%;
+        justify-content: normal;
+        margin-right:  0px;
+        
     }
     .menu__links {
         margin-left: 10px;
