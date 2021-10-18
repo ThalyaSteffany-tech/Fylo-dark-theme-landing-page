@@ -18,14 +18,33 @@
     .menu__logo {
         width: 80px;
     }
+    .btnResponsivo  {
+        display: block;
+        z-index: 1;
+        width: 40px;
+        transform: translate(88vw, -46px);
+    }
     .menu__lista {
-        width: 90%;
-        justify-content: normal;
-        margin-right:  0px;
-        
+        display: none;
+        height: 70vh;
+        width: 32%;
+
+        flex-direction: column;
+        align-items: center;
+        transform: translate(56vw, -92px);
+
+        background-color: rgb(15 15 15 / 36%);
+        padding-top: 45px;
+        padding-right: 10px;
+         
     }
     .menu__links {
         margin-left: 10px;
+    }
+    main {
+        position: absolute;
+        top: 50%;
+        z-index: -1;
     }
     .primeiraSecao {
         margin-bottom: 8rem;
@@ -112,7 +131,14 @@
         margin-right: 0;
     }
 
-
+    footer {
+        position: absolute;
+        bottom: -5129px;
+        left: 35%;
+    }
+    .mostrar {
+        display: flex;
+    }
   
 }
 @media (max-width: 1199px) {
