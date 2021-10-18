@@ -25,6 +25,12 @@ body {
     object-fit: scale-down;
     margin-left: 4rem;
 }
+.btnResponsivo {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
 .menu__lista {
     display: flex;
     width: 23%;
