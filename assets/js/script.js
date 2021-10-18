@@ -17,4 +17,10 @@ function mensagemErro (evento) {
     }
 } 
 
+const btnMenuResponsivo  = document.querySelector('#btnResponsivo').addEventListener('click',menuResponsivo)
+function menuResponsivo() {
+    let navUl = document.querySelector('#navUl')
+    navUl.classList.toggle('mostrar')
+}
+
 })()
