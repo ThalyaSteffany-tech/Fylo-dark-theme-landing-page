@@ -22,7 +22,7 @@
         display: block;
         z-index: 1;
         width: 40px;
-        transform: translate(88vw, -46px);
+        transform: translate(4vw, -18px);
     }
     .menu__lista {
         display: none;
