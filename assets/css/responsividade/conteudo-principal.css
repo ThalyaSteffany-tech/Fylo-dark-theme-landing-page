@@ -1,0 +1,146 @@
+@media (max-width: 765.99px) {
+  body {
+    overflow-x: hidden;
+  }
+  .primeiraSecao {
+    margin-bottom: 8rem;
+  }
+
+  .primeiraSecao__img {
+    width: 90%;
+  }
+
+  .primeiraSecao__titulo {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .primeiraSecao__subTitulo {
+    width: 50%;
+  }
+
+  .segundaSecao {
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+
+  .segundaSecao__container {
+    width: 100%;
+  }
+
+  .segundaSecao__container--img {
+    width: 15%;
+  }
+
+  .segundaSecao__container--titulo {
+    font-size: 1.5rem;
+  }
+
+  .segundaSecao__container--p {
+    font-size: 0.9rem;
+  }
+
+  .terceiraSecao {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8rem;
+  }
+
+  .terceiraSecao__img {
+    width: 80%;
+  }
+
+  .terceiraSecao__textos {
+    width: 80%;
+  }
+
+  .terceiraSecao__textos--titulo {
+    font-size: 1.5rem;
+  }
+
+  .terceiraSecao__textos--link:hover {
+    text-decoration: underline;
+  }
+
+  .terceiraSecao__textos--link:hover::before {
+    width: 0;
+    height: 0;
+  }
+
+  .quartaSecao {
+    max-width: 75%;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-size: 38px 25px;
+    padding: 3.3rem;
+    margin-bottom: 8rem;
+    margin-left: 0;
+  }
+
+  .quartaSecao__card {
+    margin-bottom: 2rem;
+    max-width: 100%;
+    justify-content: center;
+    margin-left: 12%;
+  }
+
+  .quintaSecao {
+    margin-bottom: 8rem;
+  }
+
+  .quintaSecao__container {
+    width: 80%;
+    padding-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .quintaSecao__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quintaSecao__form--input, .quintaSecao__form--botao {
+    width: 80%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .sextaSecao__container {
+    flex-direction: column;
+  }
+
+  .sextaSecao__sobre, .sextaSecao__contato {
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
+
+  .sextaSecao__logo {
+    margin-top: 100px;
+    width: 260px;
+  }
+
+  .sextaSecao__gradeLinks {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .sextaSecao__listaLinks {
+    padding-inline-start: 0px;
+  }
+
+  .sextaSecao__links {
+    font-size: 1.2rem;
+  }
+
+  .sextaSecao__iconesSociais {
+    font-size: 18px;
+    padding: 5px 8px;
+  }
+
+  .sextaSecao__listaLinks--sociais {
+    display: flex;
+    justify-content: center;
+  }
+}
