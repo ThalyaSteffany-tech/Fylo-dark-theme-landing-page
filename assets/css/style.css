@@ -324,6 +324,7 @@ body {
 }
 
 .mensagemErro {
+    display: block;
     color: lightcoral;
     margin-top: 20px;
     font-weight: 700;
