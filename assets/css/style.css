@@ -29,7 +29,7 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    display: none;
+    display: block;
 }
 .menu__lista {
     display: flex;
