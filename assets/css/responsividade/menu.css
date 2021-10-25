@@ -6,7 +6,7 @@
   .menu__logo {
     width: 80px;
   }
-  .menu__btnResponsivo {
+  .btnResponsivo {
     display: block;
     z-index: 1;
     width: 40px;
@@ -44,7 +44,7 @@
   .menu__logo {
     width: 80px;
   }
-  .menu__btnResponsivo {
+  .btnResponsivo {
     display: block;
     z-index: 1;
     width: 40px;
