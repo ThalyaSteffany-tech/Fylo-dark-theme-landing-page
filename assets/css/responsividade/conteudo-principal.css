@@ -58,15 +58,6 @@
     font-size: 1.5rem;
   }
 
-  .terceiraSecao__textos--link:hover {
-    text-decoration: underline;
-  }
-
-  .terceiraSecao__textos--link:hover::before {
-    width: 0;
-    height: 0;
-  }
-
   .quartaSecao {
     max-width: 75%;
     box-sizing: border-box;
