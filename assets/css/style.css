@@ -138,15 +138,9 @@ body {
 .terceiraSecao__textos--link:hover {
     color: #fff;
     transition: all 1s ease-in-out;
+    text-decoration: none;
 }
-.terceiraSecao__textos--link:hover::before  {
-    content: '';
-    width: 144px;
-    height: 1px;
-    background-color: #fff;
-    position: absolute;
-    bottom: 37px;
-}
+
 
 .quartaSecao {
     display: flex;
